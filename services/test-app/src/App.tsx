@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import styled from "@emotion/styled";
-import { vars } from "@chae/themes";
+import { vars, classes } from "@chae/themes";
 
 function App() {
 	return <View />;
@@ -27,5 +27,6 @@ const View = () => (
 );
 
 const Text = styled.p`
-	color: ${vars.colors.$static.light.red[500]};
+  ${classes.typography.heading['4xl']}
+  color: ${vars.colors.$static.light.red[500]}
 `;
