@@ -1,11 +1,20 @@
 {
   "name": "design-system",
   "version": "0.0.1",
+  "workspaces": [
+    "packages/**/*",
+    "services/**/*"
+  ],
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nx build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "packageManager": "yarn@4.1.0",
+  "devDependencies": {
+    "nx": "16.8.1",
+    "typescript": "^5.3.3"
+  }
 }

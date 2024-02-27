@@ -1,0 +1,79 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.8.1",
+  "deps": {
+    "nx": "16.8.1",
+    "typescript": "^5.3.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": false
+    }
+  },
+  "projectFileMap": {
+    "@chae/themes": [
+      {
+        "file": "packages/themes/build.js",
+        "hash": "17346719174056535905"
+      },
+      {
+        "file": "packages/themes/package.json",
+        "hash": "39222367850161204"
+      },
+      {
+        "file": "packages/themes/scripts/build-css-module.js",
+        "hash": "2420838514728657448"
+      },
+      {
+        "file": "packages/themes/src/classes/index.ts",
+        "hash": "14908633654431670366"
+      },
+      {
+        "file": "packages/themes/src/classes/typography.ts",
+        "hash": "15593512675100812661"
+      },
+      {
+        "file": "packages/themes/src/index.ts",
+        "hash": "11311948419211842903"
+      },
+      {
+        "file": "packages/themes/src/variables/box.ts",
+        "hash": "14567611062615246861"
+      },
+      {
+        "file": "packages/themes/src/variables/colors/index.ts",
+        "hash": "13035257425376259526"
+      },
+      {
+        "file": "packages/themes/src/variables/colors/scale.ts",
+        "hash": "5409931654580465237"
+      },
+      {
+        "file": "packages/themes/src/variables/colors/static/dark.ts",
+        "hash": "13087988505202937683"
+      },
+      {
+        "file": "packages/themes/src/variables/colors/static/index.ts",
+        "hash": "7821836053616771075"
+      },
+      {
+        "file": "packages/themes/src/variables/colors/static/light.ts",
+        "hash": "7190357153699212227"
+      },
+      {
+        "file": "packages/themes/src/variables/index.ts",
+        "hash": "18308412740559347465"
+      },
+      {
+        "file": "packages/themes/src/variables/typography.ts",
+        "hash": "15132677084815306804"
+      },
+      {
+        "file": "packages/themes/tsconfig.json",
+        "hash": "7967201323899812561"
+      }
+    ]
+  }
+}

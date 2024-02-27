@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build @chae/themes",
+    "startTime": "2024-02-27T13:03:03.854Z",
+    "endTime": "2024-02-27T13:03:04.340Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@chae/themes:build",
+      "target": "build",
+      "projectName": "@chae/themes",
+      "hash": "1357815042345507992",
+      "startTime": "2024-02-27T13:03:03.868Z",
+      "endTime": "2024-02-27T13:03:04.340Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
